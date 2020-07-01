@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.js-form {
+    display: flex;
+    flex-direction: column;
+    color: #6c5b7b
+}
+
+.sbmtbttn {
+    width: 100px;
+}
+
+body {
+    background: #eaffd0;
+}
+
+h1, h2 {
+    color: #c06c84;
+}
+
+p {
+    color: #6c5b7b;
+}

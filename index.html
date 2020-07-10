@@ -14,54 +14,57 @@
     <!-- section for score  -->
     <section class="scoreCard">
 
-        <h1>Quiz</h1>
+        <h1>Respect The Sample Quiz</h1>
         <ul>
             <li>Question:
-                <span class="qNumber">0</span>/10</li>
+                <span id="qNumber">0</span>/<span id='qTotal'>10</span></li>
             <li class="sizeMe">Score:
-                <span class="score">0</span>
+                <span id="score">0</span>
             </li>
         </ul>
     </section>
     <hr>
 
     <section class="start">
-        <h2 class="titleScreen">Rick and Morty Quiz</h2>
-        <a href="">Wubba Lubba Dub Dub!!</a>
+        <h2 class="titleScreen">Who Sampled that Quiz</h2>
+        <a href="">Let's see who sampled who!!</a>
     </section>
+
     <!-- form for user submissions -->
     <section class="quiz">
-        <p> QUESTION : Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <!-- <p> QUESTION : Lorem ipsum dolor sit amet, consectetur adipisicing -->
+        <!-- elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> -->
 
-        <form class="js-form" type="radio">
-            <input type="radio" id="optionA" name="option">
-            <label for="optionA">A</label><br>
+        <form id="questionForm" class="js-form" type="radio">
+            <!-- <legend class='testArea'>Question 1</legend>
+            <input value='mike' type="radio" id="optionA" name="option">
+            <label class='optionA' for="optionA">A</label><br>
             <input type="radio" id="optionB" name="option">
-            <label for="optionA">B</label><br>
+            <label class='optionB' for="optionB">B</label><br>
             <input type="radio" id="optionC" name="option">
-            <label for="optionA">C</label><br>
+            <label class='optionC' for="optionC">C</label><br>
             <input type="radio" id="optionD" name="option">
-            <label for="optionA">D</label><br>
-            <button class="sbmtbttn">Submit</button>
+            <label class='optionD' for="optionD">D</label><br>
+            <button class="sbmtbttn">Submit</button> -->
         </form>
     </section>
+
     <!--Feedback Page-->
     <section class="feedbackArea">
         <h2>Sorry, that's incorrect...</h2>
-        <p>The correct answer was C.</p>
-        <button>Next question</button>
+        <p>The correct answer was <span id='answerSpan'></span>.</p>
+        <button id="wrongAnswerNext">Next question</button>
     </section>
     <!--Score Page-->
     <section class="summary">
-    <h2>Congratulations!</h2>
-    <p>You scored 10/10</p>
-    <p>Excellent!
-    <p>
-        <button>Restart Quiz</button>
+        <h2>Congratulations!</h2>
+        <p>You scored <span id="resultSpan"></span></p>
+        <p>Excellent!
+            <p>
+                <button id='restartButton'>Restart Quiz</button>
     </section>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

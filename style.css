@@ -1,68 +1,93 @@
-    ul {
-        list-style-type: none;
-        text-align: right;
-    }
-    
-    .js-form {
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        color: #6c5b7b;
-        margin-top: 3em;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 3em;
-    }
-    
-    .sbmtbttn {
-        width: 100px;
-    }
-    
-    body {
-        background: #eaffd0;
-        padding: 10px;
-    }
-    
-    h1,
-    h2 {
-        color: #c06c84;
-    }
-    
-    p {
-        color: #6c5b7b;
-    }
-    
-    .start {
-        text-align: center;
-        align-items: center;
-    }
-    /* 
-input[type='radio'] {
-    --active: #275EFE;
-    --active-inner: #fff;
-    --focus: 2px rgba(39, 94, 254, .3);
-    --border: #BBC1E1;
-    --border-hover: #275EFE;
-    --background: #fff;
-    --disabled: #F6F8FF;
-    --disabled-inner: #E1E6F9;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    height: 21px;
-    outline: none;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    margin: 0;
-    cursor: pointer;
-    border: 1px solid var(--bc, var(--border));
-    background: var(--b, var(--background));
-    transition: background .3s, border-color .3s, box-shadow .2s;
-    &:after {
-        content: '';
-        display: block;
-        left: 0;
-        top: 0;
-        position: absolute;
-        transition: transform var(--d-t, .3s) var(--d-t-e, ease), opacity var(--d-o, .2s);
-    } */
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Just+Another+Hand&family=Permanent+Marker&family=Slabo+27px&display=swap');
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.js-form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: #024249;
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+    padding-left: 5%;
+    /* border: 5px double; */
+}
+
+a {
+    font-size: 24px;
+}
+
+.sbmtbttn {
+    width: 100px;
+}
+
+body {
+    background: #CFF6CF;
+    padding: 10px;
+}
+
+h1,
+h2 {
+    color: #035AA6;
+}
+
+#wrongAnswerNext {
+    color: #035AA6;
+    text-align: right;
+}
+
+.titleScreen {
+    font-size: 48px;
+}
+
+p {
+    color: #024249;
+}
+
+.scoreCard {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 24px;
+    padding: 0;
+    color: #035AA6;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.feedbackArea p {
+    color: #024249;
+    font-size: 30px;
+    font-family: 'Slabo 27px', serif;
+}
+
+legend {
+    background-color: #79d70f;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+}
+
+.start {
+    text-align: center;
+    align-items: center;
+}
+
+fieldset {
+    border: 5px double #79d70f;
+    width: 85%;
+}
+
+.summary {
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {}

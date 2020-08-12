@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Just+Another+Hand&family=Permanent+Marker&family=Slabo+27px&display=swap');
+@font-face {
+    font-family: 'grafFont';
+    src: url('fonts/tagtype.ttf');
+    format('truetype');
+}
+
 ul {
     list-style-type: none;
     text-align: right;
@@ -55,6 +61,7 @@ p {
 
 h1 {
     font-size: 36px;
+    font-family: grafFont, sans-serif;
     padding: 0;
 }
 
@@ -90,4 +97,17 @@ fieldset {
     align-items: center;
 }
 
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+    .feedbackArea p {
+        color: #024249;
+        font-size: 20px;
+        font-family: 'Slabo 27px', serif;
+    }
+    body {
+        padding: 2px;
+    }
+    fieldset {
+        width: 95%;
+        padding: 2px;
+    }
+}

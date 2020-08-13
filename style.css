@@ -5,6 +5,12 @@
     format('truetype');
 }
 
+@font-face {
+    font-family: 'titleFont';
+    src: url('fonts/Sister\ Spray.ttf');
+    format('truetype');
+}
+
 ul {
     list-style-type: none;
     text-align: right;
@@ -46,6 +52,7 @@ h2 {
 
 .titleScreen {
     font-size: 48px;
+    font-family: titleFont;
 }
 
 p {
@@ -109,5 +116,8 @@ fieldset {
     fieldset {
         width: 95%;
         padding: 2px;
+    }
+    .titleScreen {
+        font-size: 24px;
     }
 }

@@ -16,7 +16,7 @@ ul {
     text-align: right;
 }
 
-.js-form {
+#questionForm {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -27,8 +27,9 @@ ul {
     /* border: 5px double; */
 }
 
-a {
-    font-size: 24px;
+#startButton {
+    background-color: #79d70f;
+    color: #035AA6
 }
 
 .sbmtbttn {

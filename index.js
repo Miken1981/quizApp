@@ -72,7 +72,8 @@ function beginQuiz() {
     $('.quiz').hide();
     $('.scoreCard').hide();
     $('.feedbackArea').hide();
-    $('.start a').on('click', function() {
+    // $('.start a').on('click', function() {
+    $('#startButton').on('click', function() {
         console.log("startQuiz ran");
         event.preventDefault();
         $('.start').hide();
